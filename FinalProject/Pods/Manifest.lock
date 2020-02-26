@@ -1,0 +1,44 @@
+PODS:
+  - AWSAuthCore (2.12.2):
+    - AWSCore (= 2.12.2)
+  - AWSCognitoIdentityProvider (2.12.2):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.12.2)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.12.2)
+  - AWSDynamoDB (2.12.2):
+    - AWSCore (= 2.12.2)
+  - AWSMobileClient (2.12.2):
+    - AWSAuthCore (= 2.12.2)
+    - AWSCognitoIdentityProvider (= 2.12.2)
+  - AWSPinpoint (2.12.2):
+    - AWSCore (= 2.12.2)
+
+DEPENDENCIES:
+  - AWSCore
+  - AWSDynamoDB
+  - AWSMobileClient
+  - AWSPinpoint
+
+SPEC REPOS:
+  trunk:
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSDynamoDB
+    - AWSMobileClient
+    - AWSPinpoint
+
+SPEC CHECKSUMS:
+  AWSAuthCore: a67ecbfe4dfdb8470f85c31f9594476d5ed988a5
+  AWSCognitoIdentityProvider: 5ac7b7af7877e7a47585c08d6a0ef58bcd6314b6
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: bdc0933bcb1aca4a9af3352a9e6ec75b339faf71
+  AWSDynamoDB: ab401af9806f52fca4ee33cf7ca7be2267fc00cf
+  AWSMobileClient: ed6cd3c6ecb935406bf392df81fc5b40f4660845
+  AWSPinpoint: b168db4f377fdc0ad27525e8114308c1a3a79fd4
+
+PODFILE CHECKSUM: 6327d36fb4514af31f02384c03edf79378e38f6b
+
+COCOAPODS: 1.8.4
